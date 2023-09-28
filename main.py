@@ -63,7 +63,7 @@ while True:
 
         email_thread.start()
 
-
+    print(status_list)
     cv2.imshow("Video", frame)
 
     # create keyboard key object and if user presses the q key it will break the video

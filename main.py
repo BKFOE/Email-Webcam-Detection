@@ -62,6 +62,7 @@ while True:
         clean_thread.daemon = True
 
         email_thread.start()
+        clean_thread.start()
 
     print(status_list)
     cv2.imshow("Video", frame)
@@ -74,4 +75,3 @@ while True:
 
 video.release()
 
-clean_thread.start()
